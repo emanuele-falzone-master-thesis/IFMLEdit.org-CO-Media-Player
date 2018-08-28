@@ -24,8 +24,8 @@ function ViewModel(params) {
 
 ViewModel.prototype.id = 'view-container-application';
 ViewModel.prototype.children = [
-    'list-songs' // Songs
-    ,'view-container-xor-player' // Player
+    'view-container-xor-player' // Player
+    ,'list-songs' // Songs
 ];
 
 exports.register = function () {
