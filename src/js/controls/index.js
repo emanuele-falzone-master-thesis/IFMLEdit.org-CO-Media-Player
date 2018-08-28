@@ -5,12 +5,13 @@ var ko = require('knockout');
 
 exports.register = function () {
     require('./main-application').register();
-    require('./c-view-container-xor-player').register();
-    require('./c-details-player-stopped').register();
-    require('./c-view-container-stopped').register();
-    require('./c-view-container-playing').register();
-    require('./c-view-container-application').register();
     require('./c-list-songs').register();
     require('./c-details-player-playing').register();
-          require('./c-system-event-end').register();
-          };
+    require('./c-details-player-stopped').register();
+    require('./c-list-authors').register();
+    require('./c-view-container-xor-player').register();
+    require('./c-view-container-playing').register();
+    require('./c-view-container-stopped').register();
+    require('./c-view-container-application').register();
+                require('./c-system-event-end').register();
+      };
