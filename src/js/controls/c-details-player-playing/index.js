@@ -21,6 +21,7 @@ ViewModel.prototype.id = 'details-player-playing';
 ViewModel.prototype.fields = {
     id: 1
     ,'title': 1
+    ,'image': 1
 };
 
 ViewModel.prototype.waitForStatusChange = function () {
